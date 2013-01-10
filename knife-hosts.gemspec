@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["matt@mattgreensmith.net"]
   gem.description   = %q{Knife plugin to print node names and IPs formatted for inclusion in a hosts file.}
   gem.summary       = %q{Knife plugin to format nodes for a hosts file.}
-  gem.homepage      = "github.com/mgreensmith/knife-hosts"
+  gem.homepage      = "http://github.com/mgreensmith/knife-hosts"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
