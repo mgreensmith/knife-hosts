@@ -1,6 +1,6 @@
 # Knife::Hosts
 
-TODO: Write a gem description
+Knife plugin to print node names and IPs formatted for inclusion in a hosts file.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`knife hosts [QUERY]`
 
 ## Contributing
 
