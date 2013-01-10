@@ -4,7 +4,7 @@ require "knife-hosts/version"
 
 Gem::Specification.new do |gem|
   gem.name          = "knife-hosts"
-  gem.version       = Knife::Hosts::VERSION
+  gem.version       = KnifeHosts::VERSION
   gem.authors       = ["Matt Greensmith"]
   gem.email         = ["matt@mattgreensmith.net"]
   gem.description   = %q{Knife plugin to print node names and IPs formatted for inclusion in a hosts file.}
