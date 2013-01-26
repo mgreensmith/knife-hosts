@@ -19,14 +19,14 @@
 
 require 'chef/knife'
 
-module KnifeHosts
-
-  # A quick helper
-  class String
-    def numeric?
-      Float(self) != nil rescue false
-    end
+# A quick helper
+class String
+  def numeric?
+    Float(self) != nil rescue false
   end
+end
+
+module KnifeHosts
 
   class Hosts < Chef::Knife
 
