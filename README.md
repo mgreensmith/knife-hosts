@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/knife-hosts.png)](http://badge.fury.io/rb/knife-hosts)
+
 # Knife::Hosts
 
 Knife plugin to print node names and IPs formatted for inclusion in a hosts file.
